@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE8A83FB25BAB73800EA6902 /* HorizontalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A83FA25BAB73800EA6902 /* HorizontalTableViewController.swift */; };
+		DE8A83FD25BAB75500EA6902 /* HorizontalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A83FC25BAB75500EA6902 /* HorizontalTableView.swift */; };
+		DE8A83FF25BACF7400EA6902 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A83FE25BACF7400EA6902 /* TextCell.swift */; };
 		DE8B862D259DF1A500D9A6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B862C259DF1A500D9A6EC /* AppDelegate.swift */; };
 		DE8B8631259DF1A500D9A6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B8630259DF1A500D9A6EC /* ViewController.swift */; };
 		DE8B8636259DF1A800D9A6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B8635259DF1A800D9A6EC /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE8A83FA25BAB73800EA6902 /* HorizontalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableViewController.swift; sourceTree = "<group>"; };
+		DE8A83FC25BAB75500EA6902 /* HorizontalTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableView.swift; sourceTree = "<group>"; };
+		DE8A83FE25BACF7400EA6902 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		DE8B8629259DF1A500D9A6EC /* RobotCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8B862C259DF1A500D9A6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8B8630259DF1A500D9A6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +60,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE8A83F825BAB70400EA6902 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DE8A83F925BAB72200EA6902 /* HorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A83FA25BAB73800EA6902 /* HorizontalTableViewController.swift */,
+				DE8A83FC25BAB75500EA6902 /* HorizontalTableView.swift */,
+				DE8A83FE25BACF7400EA6902 /* TextCell.swift */,
+			);
+			path = HorizontalTableView;
+			sourceTree = "<group>";
+		};
 		DE8B8620259DF1A500D9A6EC = {
 			isa = PBXGroup;
 			children = (
+				DE8A83F925BAB72200EA6902 /* HorizontalTableView */,
 				DE8B862B259DF1A500D9A6EC /* RobotCheck */,
 				DE8B8642259DF1A900D9A6EC /* RobotCheckTests */,
 				DE8B862A259DF1A500D9A6EC /* Products */,
@@ -75,6 +99,7 @@
 		DE8B862B259DF1A500D9A6EC /* RobotCheck */ = {
 			isa = PBXGroup;
 			children = (
+				DE8A83F825BAB70400EA6902 /* New Group */,
 				DE8B862C259DF1A500D9A6EC /* AppDelegate.swift */,
 				DE8B8630259DF1A500D9A6EC /* ViewController.swift */,
 				DE8B8635259DF1A800D9A6EC /* Assets.xcassets */,
@@ -193,6 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8A83FF25BACF7400EA6902 /* TextCell.swift in Sources */,
+				DE8A83FB25BAB73800EA6902 /* HorizontalTableViewController.swift in Sources */,
+				DE8A83FD25BAB75500EA6902 /* HorizontalTableView.swift in Sources */,
 				DE8B8631259DF1A500D9A6EC /* ViewController.swift in Sources */,
 				DE8B862D259DF1A500D9A6EC /* AppDelegate.swift in Sources */,
 			);
