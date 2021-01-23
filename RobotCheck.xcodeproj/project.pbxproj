@@ -12,6 +12,7 @@
 		DE8A83FF25BACF7400EA6902 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A83FE25BACF7400EA6902 /* TextCell.swift */; };
 		DE8A840225BBD95900EA6902 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A840125BBD95900EA6902 /* ImageCache.swift */; };
 		DE8A840425BBE40B00EA6902 /* UIImage+cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A840325BBE40B00EA6902 /* UIImage+cache.swift */; };
+		DE8A840725BBEA6B00EA6902 /* DragAndDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A840625BBEA6B00EA6902 /* DragAndDeleteViewController.swift */; };
 		DE8B862D259DF1A500D9A6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B862C259DF1A500D9A6EC /* AppDelegate.swift */; };
 		DE8B8631259DF1A500D9A6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B8630259DF1A500D9A6EC /* ViewController.swift */; };
 		DE8B8636259DF1A800D9A6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B8635259DF1A800D9A6EC /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		DE8A83FE25BACF7400EA6902 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		DE8A840125BBD95900EA6902 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		DE8A840325BBE40B00EA6902 /* UIImage+cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+cache.swift"; sourceTree = "<group>"; };
+		DE8A840625BBEA6B00EA6902 /* DragAndDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDeleteViewController.swift; sourceTree = "<group>"; };
 		DE8B8629259DF1A500D9A6EC /* RobotCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8B862C259DF1A500D9A6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8B8630259DF1A500D9A6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,9 +92,18 @@
 			path = ImageCache;
 			sourceTree = "<group>";
 		};
+		DE8A840525BBEA3F00EA6902 /* DragAndDelete */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A840625BBEA6B00EA6902 /* DragAndDeleteViewController.swift */,
+			);
+			path = DragAndDelete;
+			sourceTree = "<group>";
+		};
 		DE8B8620259DF1A500D9A6EC = {
 			isa = PBXGroup;
 			children = (
+				DE8A840525BBEA3F00EA6902 /* DragAndDelete */,
 				DE8A840025BBD90D00EA6902 /* ImageCache */,
 				DE8A83F925BAB72200EA6902 /* HorizontalTableView */,
 				DE8B862B259DF1A500D9A6EC /* RobotCheck */,
@@ -237,6 +248,7 @@
 				DE8A83FB25BAB73800EA6902 /* HorizontalTableViewController.swift in Sources */,
 				DE8A83FD25BAB75500EA6902 /* HorizontalTableView.swift in Sources */,
 				DE8A840425BBE40B00EA6902 /* UIImage+cache.swift in Sources */,
+				DE8A840725BBEA6B00EA6902 /* DragAndDeleteViewController.swift in Sources */,
 				DE8B8631259DF1A500D9A6EC /* ViewController.swift in Sources */,
 				DE8B862D259DF1A500D9A6EC /* AppDelegate.swift in Sources */,
 			);
