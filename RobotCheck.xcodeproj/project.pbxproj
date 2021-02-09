@@ -18,6 +18,9 @@
 		DE8B8636259DF1A800D9A6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B8635259DF1A800D9A6EC /* Assets.xcassets */; };
 		DE8B8639259DF1A800D9A6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8B8637259DF1A800D9A6EC /* LaunchScreen.storyboard */; };
 		DE8B8644259DF1A900D9A6EC /* RobotCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B8643259DF1A900D9A6EC /* RobotCheckTests.swift */; };
+		DE8DD9F225C7B66500C8355B /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DD9F125C7B66500C8355B /* TransformViewController.swift */; };
+		DE8DD9F525C911F600C8355B /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DD9F425C911F600C8355B /* AnimationViewController.swift */; };
+		DEAB16F125CE5551002AE614 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB16F025CE5551002AE614 /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		DE8B863F259DF1A900D9A6EC /* RobotCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8B8643259DF1A900D9A6EC /* RobotCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCheckTests.swift; sourceTree = "<group>"; };
 		DE8B8645259DF1A900D9A6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8DD9F125C7B66500C8355B /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
+		DE8DD9F425C911F600C8355B /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		DEAB16F025CE5551002AE614 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 		DE8B8620259DF1A500D9A6EC = {
 			isa = PBXGroup;
 			children = (
+				DE8DD9F325C911D500C8355B /* Animation */,
+				DE8DD9F025C7B64700C8355B /* Transform */,
 				DE8A840525BBEA3F00EA6902 /* DragAndDelete */,
 				DE8A840025BBD90D00EA6902 /* ImageCache */,
 				DE8A83F925BAB72200EA6902 /* HorizontalTableView */,
@@ -141,6 +149,23 @@
 				DE8B8645259DF1A900D9A6EC /* Info.plist */,
 			);
 			path = RobotCheckTests;
+			sourceTree = "<group>";
+		};
+		DE8DD9F025C7B64700C8355B /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DD9F125C7B66500C8355B /* TransformViewController.swift */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		DE8DD9F325C911D500C8355B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DD9F425C911F600C8355B /* AnimationViewController.swift */,
+				DEAB16F025CE5551002AE614 /* AnimationView.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,12 +268,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8DD9F225C7B66500C8355B /* TransformViewController.swift in Sources */,
 				DE8A840225BBD95900EA6902 /* ImageCache.swift in Sources */,
 				DE8A83FF25BACF7400EA6902 /* TextCell.swift in Sources */,
 				DE8A83FB25BAB73800EA6902 /* HorizontalTableViewController.swift in Sources */,
 				DE8A83FD25BAB75500EA6902 /* HorizontalTableView.swift in Sources */,
 				DE8A840425BBE40B00EA6902 /* UIImage+cache.swift in Sources */,
 				DE8A840725BBEA6B00EA6902 /* DragAndDeleteViewController.swift in Sources */,
+				DE8DD9F525C911F600C8355B /* AnimationViewController.swift in Sources */,
+				DEAB16F125CE5551002AE614 /* AnimationView.swift in Sources */,
 				DE8B8631259DF1A500D9A6EC /* ViewController.swift in Sources */,
 				DE8B862D259DF1A500D9A6EC /* AppDelegate.swift in Sources */,
 			);

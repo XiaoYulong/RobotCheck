@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UIKit.UIGestureRecognizerSubclass
 
 class HorizontalTableViewCell: UIView {
     fileprivate var index = -1
